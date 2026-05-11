@@ -14,7 +14,8 @@ export default defineConfig(() => {
         input: {
           main: path.resolve(__dirname, 'index.html'),
           projects: path.resolve(__dirname, 'projects/index.html'),
-          experience: path.resolve(__dirname, 'experience/index.html')
+          experience: path.resolve(__dirname, 'experience/index.html'),
+          error: path.resolve(__dirname, '404.html')
         }
       }
     },
