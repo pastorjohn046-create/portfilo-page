@@ -1,0 +1,6 @@
+# Redirect all 404s to the custom error page
+/* /404.html 404
+
+# Ensure clean URLs work (though Cloudflare Pages does this by default)
+/projects /projects/index.html 200
+/experience /experience/index.html 200
